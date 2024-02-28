@@ -1,0 +1,175 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.free
+{
+    padding: 10px 30px;
+    width: 100%;
+    background: #010f1c;
+    display: flex;
+}
+.free .icon
+{
+    color: #f3b123;
+    font-size: 32px;
+}
+.free p 
+{
+    margin-left: 10px;
+    color:  #fff;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.free span
+{
+    color: #f3b123;
+}
+.main-header img 
+{
+    width: 50px;
+    height: 60px;
+}
+.main-header
+{
+    padding: 30px 40px;
+    width: 100%;
+    border-bottom: 1px solid #000000;
+}
+.main-header .container
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-header .container .search_box
+{
+    left: 10px;
+}
+.main-header .container .search_box input 
+{
+    outline: none;
+    padding: 10px 30px;
+    border: 3px solid  #769CFF;
+    width: 300px;
+    color: #010f1c;
+    border-radius: 5px 0 0 5px;
+}
+.main-header .container .search_box button
+{
+    border: 3px solid #769CFF;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    background: #769CFF;
+    color: #ecf2f7;
+    border-radius: 0 5px 5px 0;
+    font-size: 12px;
+    margin-right: 5px;
+}
+.main-header .container .icon
+{
+    display: flex;
+}
+.main-header .container .icon .account
+{
+    display: flex;
+    margin-right: 20px;
+}
+.main-header .container .icon .account p
+{
+    padding-top: 3px;
+}
+
+.main-header .container .icon .user_icon
+{
+    margin-right: 10px;
+    font-size: 22px;
+    color: #769CFF;
+    cursor: pointer;
+}
+.main-header .container .icon .link
+{
+    display: flex;
+    margin-right: 5px;
+    margin-right: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    color: #769CFF;
+}
+.header
+{
+    width: 100%;
+    padding: 20px 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.header .container 
+{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+}
+.header .container .nav ul
+{
+    display: flex;
+}
+.header .container .nav ul li 
+{
+    margin-left: 20px;
+    list-style: none;
+}
+.header .container .nav ul li .link 
+{
+    text-decoration: none;
+    color: #010f1c;
+    transition: 0.5s;
+}
+.header .container .nav ul li .link:hover
+{
+    color: #0989ff;
+}
+.header .container .authorized
+{
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.header .container .authorized .logout
+{
+    display: flex;
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    color: #810404;
+}
+.header .container .authorized .logout p
+{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 4px;
+    color: #810404;
+}
+.header .container .authorized .login
+{
+    display: flex;
+    margin-right: 20px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background: none;
+    color: #05502a;
+}
+.header .container .authorized .login p
+{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 4px;
+    color: #05502a;
+}
